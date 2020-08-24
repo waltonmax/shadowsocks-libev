@@ -1,3 +1,16 @@
+# 使用
+```dockerfile
+docker push waltonmax/shadowsocks-libev
+
+docker run -d \
+	-p 8388:8388 \
+	-p 8388:8388/udp \
+	-e METHOD=aes-256-gcm \
+	-e PASSWORD=9MLSpPmNt \
+	waltonmax/shadowsocks-libev 
+	
+```
+
 # Shadowsocks-libev Docker Image
 
 [shadowsocks-libev][1] is a lightweight secured socks5 proxy for embedded
