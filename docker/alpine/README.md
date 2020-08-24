@@ -1,6 +1,6 @@
 # 使用
 ```dockerfile
-docker push waltonmax/shadowsocks-libev
+docker pull waltonmax/shadowsocks-libev
 
 docker run -d \
 	-p 8388:8388 \
